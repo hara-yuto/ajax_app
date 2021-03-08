@@ -10,7 +10,7 @@ end
 
 def create
 Post.create(content: params[:content])
-redirect_to action: :ndex
+redirect_to action: :index  # 追記する
 end
 
 end
